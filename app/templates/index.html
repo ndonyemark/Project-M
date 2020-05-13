@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <{
+    {% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome</h1>
+        <p class="lead">Listen to hear more</p>
+        <hr class="my-4">
+        <p>The Pythonista</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#login" role="button">login</a>
+        </p>
+      </div>
+    {% endblock content %}
+        }
+</body>
+</html>
